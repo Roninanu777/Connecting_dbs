@@ -2,9 +2,9 @@ const express = require('express');
 const snowflake = require('snowflake-sdk');
 
 const connection = snowflake.createConnection({
-    account: 'redoc777.ap-south-1.aws',
-    username: 'redoc777',
-    password: '@AnghaNanu777'
+    account: '<account_name>',
+    username: '<username>',
+    password: '<password>'
 })
 
 connection.connect((err, conn) => {
