@@ -6,7 +6,7 @@ const client = {
     user: '<user>', // type = string
     database: '<dbname>', // type = string
     password: '<password>', // type = string
-    port: <port>, // type = number
+    port: '<port>', // type = number
     host: '<host>' // type = string
 }
 
